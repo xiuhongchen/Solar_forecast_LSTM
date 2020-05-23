@@ -55,7 +55,7 @@ If you change only the "epoch", "batch-size" or "lr", feel free to use the pre-t
 1. Erase the pre-trained model and train a new one, using only one feature:
   - > python main.py -n" or "python main.py --new
   
-2. Use the pre-trained model and train it further:
+2. Use the pre-trained model in step 1, and continue the training:
   - > python main.py
   
 3. Create a new model using all features to predict:
