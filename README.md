@@ -51,7 +51,7 @@
 
 If you change only the "epoch", "batch-size" or "lr", feel free to use the pre-trained model. If you want to change the model by changing the "t_x", "num_to_pred" or "out_d", you may use the "-n" or "--new" instruction. Otherwise, the changes of the configurations will be ignored.
 
-####Then, run the model, such as following:
+### Then, run the model, such as following:
 1. Erase the pre-trained model and train a new one, using only one feature:
   - > python main.py -n" or "python main.py --new
   
