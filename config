@@ -1,0 +1,16 @@
+{
+  "data_file": "data/NREL_data_2010_2014_1hr.mat",
+
+  "t_x" : 40,
+  "num_to_pred": 8,
+  "out_d" :100,
+  "num_of_dense1": 100,
+  "dropout": 0.5,
+  
+  "epoch": 60000,
+  "batch-size": 512,
+  "lr": 0.001,
+  
+  "file_model": "model_1hr_t_x_40_out_d_100_num_of_dense1_100.json",
+  "file_weights": "weights_1hr_t_x_40_out_d_100_num_of_dense1_100.h5"
+}
